@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="pdf2EpubWebTest.pdf2Epub">
+        <methods>
+          <include name="pdf2EpubMainTest"/>
+          <include name="quitDriver"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pdf2EpubWebTest.pdf2Epub -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
